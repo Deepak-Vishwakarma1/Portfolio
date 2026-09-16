@@ -7,8 +7,9 @@ const Head = () => {
         <div className="container flexSB">
           <div className="logo">
             <h1 id="c">DEEPAK VISHWAKARMA</h1>
-            <span>Strong Skills: Java, SQL, React.js</span>
-            <span>Hobbies-Chess</span>
+            <br />
+            <span>Strong Skills: Java, SQL, React.js</span> <br />
+            {/* <span>Hobbies-Chess</span> <br /> */}
           </div>
 
           <div className="social">
@@ -24,15 +25,16 @@ const Head = () => {
             >
               <i className="fab fa-github"></i>
             </a>
+
+            <a href="mailto:deepakvns3010@gmail.com" className="icon_color">
+              {" "}
+              <i className="fas fa-envelope"></i>
+            </a>
             <a
               href="https://leetcode.com/u/Deepak-Vishwakarma/"
               className="icon_color"
             >
               <i className="fas fa-code"></i>
-            </a>
-            <a href="mailto:deepakvns3010@gmail.com" className="icon_color">
-              {" "}
-              <i className="fas fa-envelope"></i>
             </a>
           </div>
         </div>
