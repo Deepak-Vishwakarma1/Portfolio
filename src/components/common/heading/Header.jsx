@@ -24,7 +24,7 @@ const Header = () => {
               href={process.env.PUBLIC_URL + '/Deepak.pdf'}
               target="_blank"
               rel="noopener noreferrer"
-              download="My_Resume"
+              download="Deepak.pdf"
             >
             </a>
 
