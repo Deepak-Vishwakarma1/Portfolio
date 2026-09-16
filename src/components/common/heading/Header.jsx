@@ -21,7 +21,7 @@ const Header = () => {
           <div className="start">
 
             <a className='Resumebtn'
-              href={process.env.PUBLIC_URL + '/Resume.pdf'}
+              href={process.env.PUBLIC_URL + '/Deepak.pdf'}
               target="_blank"
               rel="noopener noreferrer"
               download="My_Resume"
