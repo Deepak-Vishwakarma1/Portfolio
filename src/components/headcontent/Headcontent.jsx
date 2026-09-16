@@ -47,11 +47,11 @@ const Headcontent = () => {
           </Link>
 
           <a
-            href="./public/images/Deepak.pdf"
+            href="https://drive.google.com/drive/u/0/folders/1tN_123PttV7tm-jz1tUejD2KlEpaW2b2"
             download
             className="btn-secondary"
           >
-            Download Resume
+            Resume
           </a>
         </div>
       </div>
