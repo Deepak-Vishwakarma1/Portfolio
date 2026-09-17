@@ -26,7 +26,7 @@ const AboutDesc = () => {
         <div className="about-content">
           <div className="about-box">
             <h3>Education</h3>
-            <p>MCA in Computer Science</p>
+            <p>BCA & MCA in Computer Science</p>
           </div>
 
           <div className="about-box">

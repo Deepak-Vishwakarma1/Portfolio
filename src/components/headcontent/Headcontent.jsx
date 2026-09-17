@@ -47,7 +47,7 @@ const Headcontent = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/drive/u/0/folders/1tN_123PttV7tm-jz1tUejD2KlEpaW2b2"
+            href="https://drive.google.com/file/d/16DrO8NjkHcEcYggWiBj-U9ninPbGfF8n/view?usp=drive_link"
             download
             className="btn-secondary"
           >

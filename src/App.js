@@ -8,6 +8,7 @@ import Footer from "./components/common/footer/Footer"
 import Skill from "./components/techskill/Skill"
 import certificates from "./components/certification/certificates"
 import Project from "./components/project/Project"
+import Design from "./components/design/Design"
 
 
 
@@ -25,6 +26,10 @@ function App() {
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/certificates' component={certificates} />
               <Route exact path='/project' component={Project} />
+              <Route exact path='/project' component={Project} />
+
+            
+              
             </Switch>
           </main>
           <Footer />
