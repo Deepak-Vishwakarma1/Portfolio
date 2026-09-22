@@ -51,7 +51,7 @@ const Headcontent = () => {
             download
             className="btn-secondary"
           >
-            Resume
+            SDE Resume
           </a>
         </div>
       </div>
