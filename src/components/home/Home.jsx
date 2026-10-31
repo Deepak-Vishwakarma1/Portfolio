@@ -6,7 +6,6 @@ import Skill from "../techskill/Skill";
 import Contact from "../contact/Contact";
 import Certificates from "../certification/certificates";
 import Project from "../project/Project";
-import Design from "../design/Design";
 
 const Home = () => {
   return (

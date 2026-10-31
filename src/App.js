@@ -8,7 +8,6 @@ import Footer from "./components/common/footer/Footer"
 import Skill from "./components/techskill/Skill"
 import certificates from "./components/certification/certificates"
 import Project from "./components/project/Project"
-import Design from "./components/design/Design"
 
 
 

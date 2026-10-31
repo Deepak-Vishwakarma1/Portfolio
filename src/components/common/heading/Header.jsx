@@ -43,7 +43,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               download="Deepak.pdf"
-            ></a>
+            >Download Resume</a>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
