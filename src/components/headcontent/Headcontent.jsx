@@ -38,7 +38,7 @@ const Headcontent = () => {
 
         <p className="hero-desc">
           Passionate about crafting modern, responsive, and user-focused web
-          applications.
+          applications and Exploring Backend.
         </p>
 
         <div className="hero-buttons">

@@ -1,5 +1,6 @@
 .techskill {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .techskill .box {
@@ -8,6 +9,7 @@
     color: var(--dark);
     padding: 30px 20px;
     transition: 0.5s;
+    min-width: 0;
 }
 
 .techskill .img {
@@ -66,6 +68,58 @@
 
 .techskill .box:hover h1 {
     color: var(--surface);
+}
+
+@media screen and (max-width: 768px) {
+    .techskill {
+        padding-bottom: 24px;
+    }
+
+    .techskill .content.grid3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .techskill .box {
+        min-height: 150px;
+        padding: 18px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .techskill .img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .techskill h1 {
+        font-size: 16px;
+        line-height: 1.3;
+        margin: 12px 0 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .techskill .content.grid3 {
+        gap: 10px;
+    }
+
+    .techskill .box {
+        min-height: 130px;
+        padding: 14px 8px;
+    }
+
+    .techskill .img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .techskill h1 {
+        font-size: 14px;
+    }
 }
 
 
