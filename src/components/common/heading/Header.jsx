@@ -36,15 +36,6 @@ const Header = () => {
               <Link to="/design">Graphic Work</Link>
             </li>
           </ul>
-          <div className="start">
-            <a
-              className="Resumebtn"
-              href={process.env.PUBLIC_URL + "/Deepak.pdf"}
-              target="_blank"
-              rel="noopener noreferrer"
-              download="Deepak.pdf"
-            >Download Resume</a>
-          </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (
               <i className="fa fa-times"></i>
