@@ -2,6 +2,13 @@ import React from "react";
 import "./projects.css";
 const projects = [
   {
+    title: "Gangaartiseva Client Website",
+    description:
+      "Built and deployed a full-stack MERN application for my first client, live on a custom domain.",
+    tech: "MERN Stack (Frontend)",
+    link: "https://gangaartiseva.org/",
+  },
+  {
     title: "Interview Prep",
     description:
       "Full Stack MERN project that generates interview questions on demand.",
@@ -40,9 +47,11 @@ const Project = () => {
                 <strong>Tech:</strong> {project.tech}
               </p>
 
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                View Project
-              </a>
+              {project.link && (
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  View Project
+                </a>
+              )}
             </div>
           ))}
         </div>
